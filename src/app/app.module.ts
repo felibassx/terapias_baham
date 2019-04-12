@@ -16,6 +16,12 @@ import { HeaderComponent } from './shared/header/header.component';
 import { BreadcrumbsComponent } from './shared/breadcrumbs/breadcrumbs.component';
 import { MenumainComponent } from './shared/menumain/menumain.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { AdmUsersComponent } from './admin/pages/adm-users/adm-users.component';
+import { AdmRolesComponent } from './admin/pages/adm-roles/adm-roles.component';
+import { AdmPrivilegesComponent } from './admin/pages/adm-privileges/adm-privileges.component';
+import { AdmPersonsComponent } from './admin/pages/adm-persons/adm-persons.component';
+import { AdmSeguroSaludComponent } from './admin/pages/adm-seguro-salud/adm-seguro-salud.component';
+import { AdmTerapeutasComponent } from './admin/pages/adm-terapeutas/adm-terapeutas.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +38,13 @@ import { FooterComponent } from './shared/footer/footer.component';
     HeaderComponent,
     BreadcrumbsComponent,
     MenumainComponent,
-    FooterComponent
+    FooterComponent,
+    AdmUsersComponent,
+    AdmRolesComponent,
+    AdmPrivilegesComponent,
+    AdmPersonsComponent,
+    AdmSeguroSaludComponent,
+    AdmTerapeutasComponent
   ],
   imports: [
     BrowserModule,
